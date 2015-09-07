@@ -19,6 +19,13 @@ if [ -d $ECLIPSE_HOME ]; then
   alias shutdown_eclim="$ECLIPSE_HOME/eclim -command shutdown"
 fi
 
+VIM74_PATH=/usr/local/bin/vim
+if [ -f $VIM74_PATH ]; then
+  alias vim="$VIM74_PATH"
+fi
+
 HOME_TMP_PATH=$HOME/tmp
 alias sshdev="cd $HOME_TMP_PATH ; ssh pangda.wz@dev"
+alias ssh-mpi-dev="cd $HOME_TMP_PATH ; ssh pangda.wz@mpi-dev"
+alias ssh-mpi-stg="cd $HOME_TMP_PATH ; ssh pangda.wz@mpi-stg"
 alias sshlogin="cd $HOME_TMP_PATH ; ssh pangda.wz@login-server"
