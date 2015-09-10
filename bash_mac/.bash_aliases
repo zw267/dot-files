@@ -26,6 +26,9 @@ fi
 
 HOME_TMP_PATH=$HOME/tmp
 alias sshdev="cd $HOME_TMP_PATH ; ssh pangda.wz@dev"
-alias ssh-mpi-dev="cd $HOME_TMP_PATH ; ssh pangda.wz@mpi-dev"
+alias ssh-mpi-dev49="cd $HOME_TMP_PATH ; ssh pangda.wz@mpi-dev49"
+alias ssh-mpi-dev50="cd $HOME_TMP_PATH ; ssh pangda.wz@mpi-dev50"
+alias ssh-mpi-dev51="cd $HOME_TMP_PATH ; ssh pangda.wz@mpi-dev51"
+alias ssh-mpi-dev52="cd $HOME_TMP_PATH ; ssh pangda.wz@mpi-dev52"
 alias ssh-mpi-stg="cd $HOME_TMP_PATH ; ssh pangda.wz@mpi-stg"
 alias sshlogin="cd $HOME_TMP_PATH ; ssh pangda.wz@login-server"
