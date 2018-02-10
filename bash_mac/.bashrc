@@ -106,4 +106,4 @@ fi
 export CLICOLOR=1
 
 # OPAM configuration
-eval `opam config env` > /dev/null 2> /dev/null || true
+#eval `opam config env` > /dev/null 2> /dev/null || true

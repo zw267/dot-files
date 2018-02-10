@@ -5,4 +5,4 @@ if [ -f $BASHRC_FILE ]; then
 fi
 
 # OPAM configuration
-. /Users/zw267/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+#. /Users/zw267/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
